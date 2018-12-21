@@ -1,4 +1,0 @@
-sabres project ideas:
-	format csv to remove columns
-	input formatted csv into the specific player's period stats
-	build queries to list all players stats via postgreSQL
