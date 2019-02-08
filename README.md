@@ -1,4 +1,4 @@
-# Coding
+# CSE 442 Spring 2019 -- Project Repo
 
 
 Team members: Ryan Smith, Matt Kirshy, Anthony Rubin, Nick Kobis
