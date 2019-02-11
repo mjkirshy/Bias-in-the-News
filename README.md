@@ -3,6 +3,6 @@
 
 Team members: Ryan Smith, Matt Kirshy, Anthony Rubin, Nick Kobis
 
-
+Scrum board: https://trello.com/b/S8CYm55j/cse-project
 
 Project Idea: "Fake News" web-app that determines the truth value of an input article.
