@@ -28,12 +28,3 @@ def index(request):
    
     return render(request, 'fake_news/index.html', context)
    ## render function takes: request obj, dictionary for vars, and an optional third argument
-
-""" 
-    def detail(request, question_id):
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/detail.html', {'question': question}) 
-    
-    <!--  <a href="{% url 'fake_news:detail' publisher.id %}/"> url tag to auto look up urls-->
-    <!-- 'fake_news: defines an app anme for django to auto lookup paths in fake_news/urls.py --> 
-"""
