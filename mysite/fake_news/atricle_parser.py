@@ -7,5 +7,5 @@ def article_parser_fn(link):
     article.download()
     ##downloading the article object
     article.parse()
-    return(article.text)
     ##'parsing' the article object
+    return(article.text)
