@@ -9,5 +9,3 @@ def article_parser_fn(link):
     article.parse()
     return(article.text)
     ##'parsing' the article object
-    #articleText = article.text
-    ##assigning the variable article text to article.text (the text of the news source)

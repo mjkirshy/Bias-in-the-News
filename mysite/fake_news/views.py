@@ -1,8 +1,9 @@
 from django.shortcuts import render, get_object_or_404, redirect
 #from django.http import HttpResponse
-from newspaper import Article
+#from newspaper import Article
 from .models import Publisher
 from . import forms
+from .atricle_parser import article_parser_fn
 #from django.template import loader <- dont need this with render
 
 def index(request): 
@@ -10,18 +11,7 @@ def index(request):
     ## pulls all artiles in DB by date submitted
     link = str(Publisher.objects.all().last())
     ##getting the url from Publisher.objects.all().last() and typecasting it to a string
-    
-    ##for all information regarding 'article' objects, please see newspaper3k documentation
-    article = Article(link)
-    ##creating an article object from the string link
-    article.download()
-    ##downloading the article object
-    article.parse()
-    ##'parsing' the article object
-    articleText = article.text
-    ##assigning the variable article text to article.text (the text of the news source)
-
-
+    articleText = article_parser_fn(link)
     form = forms.FormName()
     ## creates a new form from our DB model in 'forms.py'
     context = {
