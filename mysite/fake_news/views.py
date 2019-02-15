@@ -1,10 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
-#from django.http import HttpResponse
-#from newspaper import Article
 from .models import Publisher
 from . import forms
 from .atricle_parser import article_parser_fn
-#from django.template import loader <- dont need this with render
 
 def index(request): 
     last_submitted_article = Publisher.objects.order_by('-date_submitted') 
