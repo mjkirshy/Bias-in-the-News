@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 #from django.http import HttpResponse
-from .newspaper import Article
+from newspaper import Article
 from .models import Publisher
 from . import forms
 #from django.template import loader <- dont need this with render
