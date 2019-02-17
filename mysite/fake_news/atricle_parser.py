@@ -1,5 +1,5 @@
 from newspaper import Article
-from .smmryapi import SmmryAPI
+from smmryapi.smmryapi import SmmryAPI
 
 def article_parser_fn(link):
     ##for all information regarding 'article' objects, please see newspaper3k documentation
