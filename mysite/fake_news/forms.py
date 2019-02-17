@@ -5,3 +5,4 @@ class FormName(forms.ModelForm):
     class Meta:
         model = Publisher
         fields = '__all__'
+        #fields = ('article_address',)

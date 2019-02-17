@@ -1,4 +1,5 @@
 from newspaper import Article
+from .smmryapi import SmmryAPI
 
 def article_parser_fn(link):
     ##for all information regarding 'article' objects, please see newspaper3k documentation
@@ -9,3 +10,10 @@ def article_parser_fn(link):
     article.parse()
     ##'parsing' the article object
     return(article.text)
+
+def article_smmry_fn(link):
+    SMMRY_API_KEY = "5BF1DF96FE"
+    smmry = SmmryAPI(SMMRY_API_KEY)
+    url = link
+    s = smmry.summarize(url, sm_length=3, sm_keyword_count=5)
+    return(s)
