@@ -4,7 +4,8 @@ from django.utils import timezone
 
 class Publisher(models.Model):
     article_address = models.URLField()
-    date_submitted = models.DateTimeField('Date Submitted')
+    date_submitted = models.DateTimeField('Date Submitted', auto_now_add=True)
+    #date_submitted = models.DateTimeField('Date Submitted')
     def __str__(self):
         return self.article_address
 
