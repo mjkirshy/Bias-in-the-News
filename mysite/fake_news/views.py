@@ -3,8 +3,12 @@ from .models import Publisher
 from . import forms
 from .atricle_parser import article_parser_fn, article_smmry_fn
 from textblob import TextBlob
+
 ## https://textblob.readthedocs.io/en/dev/index.html
 ## pip install -U textblob
+## i think we can use this to train our model for biased words and return a predictive scoring:
+## http://www.nltk.org/api/nltk.classify.html#module-nltk.classify.positivenaivebayes
+## so we feed it a bunch of 'biased' articles and return our prediticve score
 
 def index(request): 
     form = forms.FormName()
