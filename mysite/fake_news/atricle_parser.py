@@ -12,7 +12,7 @@ def article_parser_fn(link):
     return(article.text)
 
 def article_smmry_fn(link):
-    SMMRY_API_KEY = "5BF1DF96FE"
+    SMMRY_API_KEY = "93267E94CD"
     smmry = SmmryAPI(SMMRY_API_KEY)
     url = link
     s = smmry.summarize(url, sm_length=3, sm_keyword_count=5)
