@@ -3,7 +3,8 @@ from .models import Publisher
 from . import forms
 from .atricle_parser import article_parser_fn, article_smmry_fn
 from textblob import TextBlob
-#https://textblob.readthedocs.io/en/dev/index.html
+## https://textblob.readthedocs.io/en/dev/index.html
+## pip install -U textblob
 
 def index(request): 
     form = forms.FormName()
