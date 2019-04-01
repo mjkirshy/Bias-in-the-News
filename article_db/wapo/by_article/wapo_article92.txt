@@ -1,0 +1,179 @@
+SAN FRANCISCO  Millions of drivers are betting their livelihoods on Uber and Lyft. On Friday, Wall Street bet billions of dollars that the companies wont need those drivers.
+
+Lyft and Uber, which helped pioneer the gig economy with its armies of drivers, lose massive amounts of money to pay drivers for each ride. The firms could slash their costs of each ride by as much as three-quarters by replacing human drivers with autonomous vehicles, according to the companies, turning ride-hailing into a profitable enterprise.
+
+But widespread deployment of the technology is a decade away at best, experts say. That raises the question of whether Uber and Lyft can survive the years it will take to get there on their current business model. Lyft said it lost $911 million last year alone.
+
+Lyft is the first of the two to sell stock to ordinary investors: it began trading on U.S. markets Friday morning, soaring as much as 20 percent in early trading before settling for an increase of 9 percent. Uber is expected to go public later this year.
+
+Uber and Lyft are the latest Silicon Valley companies to sell a suspended belief vision of the future: The technology that could make them juggernauts doesnt exist yet.
+
+Lyft said in a mandatory IPO filing that it wants to begin providing self-driving ride-hail trips on the app within five years. It wants a network of autonomous vehicles providing a majority of its trips within a decade. Five years after that, Lyft expects it will have purpose-built driverless vehicles on the road, not just zipping around town but also taking passengers on long-haul journeys.
+
+We have set ambitious goals for Lyft to broadly deploy autonomous vehicle technology, the company said.
+
+A similar sentiment pervades Lyfts chief rival, Uber, whose founder and former chief executive, Travis Kalanick, said in 2016 that self-driving technology was basically existential for the company.
+
+For the moment, both companies are heavily dependent on thousands of drivers whose wages make up a significant chunk of their losses. Uber and Lyft lose money on each ride they facilitate. Lyft will be under shareholder pressure to trim its losses, given that public funders are unlikely to give the company the same financial runway its early adopters provided. Its listing raised $2 billion and valued the company at $24 billion.
+
+[Uber and Lyft slashed wages. Now California drivers are protesting their IPOs.]
+
+Some people characterize the driver business model as being nothing more than venture capitalists subsidizing peoples taxi rides around the world, said Jason Schloetzer, a professor at Georgetowns McDonough School of Business who specializes in artificial intelligence use cases. And that kind of business model can only survive so long.
+
+Drivers represent more than cost concerns for Uber and Lyft. As driver demonstrations in California illustrated this week, they are fighting back against the dwindling cut of the fare they get  as little as 60 cents a mile in Southern California, only two cents more than the IRS reimbursement rate. And court rulings or legislation could force the companies to consider drivers as employees rather than contractors, driving up their costs by requiring them to offer benefits.
+
+Lyft and Uber together will be able to pull this off for several quarters but they are going to have to show profitability and theyre not close," said University of Maryland strategy and entrepreneurship professor Brent Goldfarb, co-author of Bubbles and Crashes: The Boom and Bust of Technological innovation.
+
+Stacy Brown-Philpot, the chief executive of TaskRabbit, another gig economy start-up, framed the IPOs as an opportunity.
+
+Its going to invite an expectation of transparency and an expectation of scrutiny, which I actually think will be helpful and healthy in shaping how these companies will grow into the future, she said at a technology forum hosted by The Washington Post in San Francisco this week. I hope what then happens is that transparency allows for us to see: Heres what it takes to really build a sustainable business and also help people afford an income, a meaningful income. 
+
+Uber and Lyft declined to comment.
+
+A few tech companies have famously sailed to enormous wealth on the promise of paradigm-changing technology paying off after many years. Amazon two decades ago was a nascent online bookseller that had yet to realize its vision of becoming a cloud-computing juggernaut that powers the Internets one-stop retail shop, ascending to become one of the worlds most valuable public companies. The value of Google, once thought of as an Internet search company, is in fact in its artificial intelligence.
+
+But many more have stumbled. In Silicon Valley, the earliest adopters of technology -- the ones that intrigue investors -- are not always ones that survive. Early makers of wearables, including Fitbit and Jawbone, have been eclipsed by others including Apple and Xiaomi. WebVan, once the Internets largest and best-funded grocery service, went bankrupt in 2001, but online grocery shopping eventually took off. Apple and Google developed their successful iPhone and Android smartphones on the heels of Palm and Blackberry devices had long before cornered the market on digital assistants.
+
+Lyft has created a narrative of an imagined future, said Goldfarb. The vision is of a fleet of cars that drive themselves for less than what theyre currently paying the drivers. Thats what has to happen.
+
+Uber, Lyft, Waymo, Ford, General Motors and a host of other companies are pouring billions of dollars into developing driverless cars, and some companies, including Lyft, have rolled out pilot programs and driverless partnerships in places such as Silicon Valley, Phoenix, Las Vegas and Pittsburgh. But there have been setbacks, including the fatal pedestrian crash involving a self-driving Uber in Arizona, which halted the companys driverless testing for nine months.
+
+[Lyft prices IPO at $72 a share, valuing company at $24B]
+
+Schloetzer, the Georgetown professor, sees a dichotomy between Lyfts current and envisioned realities. One is expected to prop up the other, even though the models can eventually exist in unison. He says there will certainly be places, perhaps circuitous suburban neighborhoods, where self-driving routes arent yet mapped, and humans need to take over. In city downtowns and more traveled routes, however, self-driving is more likely to arrive sooner. Meanwhile, Uber and Lyft users are living in an investor-fueled limbo, he said.
+
+Drivers fear they are already feeling the crunch of a company under pressure to prove its capability to investors.
+
+Theres always been an inherent tension between drivers and ride-hail companies, said Harry Campbell, a driver who also operates the Rideshare Guy blog, which tracks the industry. The companies have the ability to implement changes without any feedback from drivers, which has led to driver protests such as the recent ones in Los Angeles over a sudden change to fares.
+
+He said for many drivers it has grown more difficult to earn consistent wages as more riders and drivers flood the system. Thats why Lyft and Uber have spent billions on incentive programs to keep drivers on the road, such as cash bonuses for completing a certain number of rides per week or month. But investors tolerance for the outlays will be tested if Lyft continues to burn through cash as it has leading into its IPO. Its losses last year erased nearly half of its sales, even as those doubled to $2.2 billion. Lyft cautioned in its public filings that it may never achieve profitability.
+
+[Lyft Confirms What We Know and What We Dont]
+
+Lyft and Uber have long grappled with retaining and recruiting drivers, particularly as the two ride-hailing firms have driven prices lower to attract more riders. Many drivers have bemoaned the lack of benefits such as health-care coverage, contending they should be treated as employees, and point to expenses like auto insurance and gasoline as cutting into their earnings. Some say they feel powerless to combat sudden changes to fares or other fees the companies implement.
+
+And while safety is a motivation, the promise of autonomous vehicles is primarily about cost savings. Driverless cars could eliminate the need to pay humans at the wheel, which could enable the companies to lower fares further.
+
+It is no secret that a fleet of autonomous vehicles has the potential to be incredibly lucrative for ride-hailing companies like Lyft and Uber, obviating the need to pay drivers, read an analysis from EquityZen, an investment firm that has invested in Lyft.
+
+Some drivers are already envisioning a future where theyre not driving. I hope to be out of the game sooner or later  especially with the writing on the wall with autonomous cars coming, said Rebecca Stack, a driver-organizer with Gig Workers Rising, the group that protested Lyfts IPO outside a luxury San Francisco hotel this week. But in the meantime I still have rent to pay. I have mouths to feed. I have to support myself. I live in the most expensive city in the United States.
+SAN FRANCISCO  Millions of drivers are betting their livelihoods on Uber and Lyft. On Friday, Wall Street bet billions of dollars that the companies wont need those drivers.
+
+Lyft and Uber, which helped pioneer the gig economy with its armies of drivers, lose massive amounts of money to pay drivers for each ride. The firms could slash their costs of each ride by as much as three-quarters by replacing human drivers with autonomous vehicles, according to the companies, turning ride-hailing into a profitable enterprise.
+
+But widespread deployment of the technology is a decade away at best, experts say. That raises the question of whether Uber and Lyft can survive the years it will take to get there on their current business model. Lyft said it lost $911 million last year alone.
+
+Lyft is the first of the two to sell stock to ordinary investors: it began trading on U.S. markets Friday morning, soaring as much as 20 percent in early trading before settling for an increase of 9 percent. Uber is expected to go public later this year.
+
+Uber and Lyft are the latest Silicon Valley companies to sell a suspended belief vision of the future: The technology that could make them juggernauts doesnt exist yet.
+
+Lyft said in a mandatory IPO filing that it wants to begin providing self-driving ride-hail trips on the app within five years. It wants a network of autonomous vehicles providing a majority of its trips within a decade. Five years after that, Lyft expects it will have purpose-built driverless vehicles on the road, not just zipping around town but also taking passengers on long-haul journeys.
+
+We have set ambitious goals for Lyft to broadly deploy autonomous vehicle technology, the company said.
+
+A similar sentiment pervades Lyfts chief rival, Uber, whose founder and former chief executive, Travis Kalanick, said in 2016 that self-driving technology was basically existential for the company.
+
+For the moment, both companies are heavily dependent on thousands of drivers whose wages make up a significant chunk of their losses. Uber and Lyft lose money on each ride they facilitate. Lyft will be under shareholder pressure to trim its losses, given that public funders are unlikely to give the company the same financial runway its early adopters provided. Its listing raised $2 billion and valued the company at $24 billion.
+
+[Uber and Lyft slashed wages. Now California drivers are protesting their IPOs.]
+
+Some people characterize the driver business model as being nothing more than venture capitalists subsidizing peoples taxi rides around the world, said Jason Schloetzer, a professor at Georgetowns McDonough School of Business who specializes in artificial intelligence use cases. And that kind of business model can only survive so long.
+
+Drivers represent more than cost concerns for Uber and Lyft. As driver demonstrations in California illustrated this week, they are fighting back against the dwindling cut of the fare they get  as little as 60 cents a mile in Southern California, only two cents more than the IRS reimbursement rate. And court rulings or legislation could force the companies to consider drivers as employees rather than contractors, driving up their costs by requiring them to offer benefits.
+
+Lyft and Uber together will be able to pull this off for several quarters but they are going to have to show profitability and theyre not close," said University of Maryland strategy and entrepreneurship professor Brent Goldfarb, co-author of Bubbles and Crashes: The Boom and Bust of Technological innovation.
+
+Stacy Brown-Philpot, the chief executive of TaskRabbit, another gig economy start-up, framed the IPOs as an opportunity.
+
+Its going to invite an expectation of transparency and an expectation of scrutiny, which I actually think will be helpful and healthy in shaping how these companies will grow into the future, she said at a technology forum hosted by The Washington Post in San Francisco this week. I hope what then happens is that transparency allows for us to see: Heres what it takes to really build a sustainable business and also help people afford an income, a meaningful income. 
+
+Uber and Lyft declined to comment.
+
+A few tech companies have famously sailed to enormous wealth on the promise of paradigm-changing technology paying off after many years. Amazon two decades ago was a nascent online bookseller that had yet to realize its vision of becoming a cloud-computing juggernaut that powers the Internets one-stop retail shop, ascending to become one of the worlds most valuable public companies. The value of Google, once thought of as an Internet search company, is in fact in its artificial intelligence.
+
+But many more have stumbled. In Silicon Valley, the earliest adopters of technology -- the ones that intrigue investors -- are not always ones that survive. Early makers of wearables, including Fitbit and Jawbone, have been eclipsed by others including Apple and Xiaomi. WebVan, once the Internets largest and best-funded grocery service, went bankrupt in 2001, but online grocery shopping eventually took off. Apple and Google developed their successful iPhone and Android smartphones on the heels of Palm and Blackberry devices had long before cornered the market on digital assistants.
+
+Lyft has created a narrative of an imagined future, said Goldfarb. The vision is of a fleet of cars that drive themselves for less than what theyre currently paying the drivers. Thats what has to happen.
+
+Uber, Lyft, Waymo, Ford, General Motors and a host of other companies are pouring billions of dollars into developing driverless cars, and some companies, including Lyft, have rolled out pilot programs and driverless partnerships in places such as Silicon Valley, Phoenix, Las Vegas and Pittsburgh. But there have been setbacks, including the fatal pedestrian crash involving a self-driving Uber in Arizona, which halted the companys driverless testing for nine months.
+
+[Lyft prices IPO at $72 a share, valuing company at $24B]
+
+Schloetzer, the Georgetown professor, sees a dichotomy between Lyfts current and envisioned realities. One is expected to prop up the other, even though the models can eventually exist in unison. He says there will certainly be places, perhaps circuitous suburban neighborhoods, where self-driving routes arent yet mapped, and humans need to take over. In city downtowns and more traveled routes, however, self-driving is more likely to arrive sooner. Meanwhile, Uber and Lyft users are living in an investor-fueled limbo, he said.
+
+Drivers fear they are already feeling the crunch of a company under pressure to prove its capability to investors.
+
+Theres always been an inherent tension between drivers and ride-hail companies, said Harry Campbell, a driver who also operates the Rideshare Guy blog, which tracks the industry. The companies have the ability to implement changes without any feedback from drivers, which has led to driver protests such as the recent ones in Los Angeles over a sudden change to fares.
+
+He said for many drivers it has grown more difficult to earn consistent wages as more riders and drivers flood the system. Thats why Lyft and Uber have spent billions on incentive programs to keep drivers on the road, such as cash bonuses for completing a certain number of rides per week or month. But investors tolerance for the outlays will be tested if Lyft continues to burn through cash as it has leading into its IPO. Its losses last year erased nearly half of its sales, even as those doubled to $2.2 billion. Lyft cautioned in its public filings that it may never achieve profitability.
+
+[Lyft Confirms What We Know and What We Dont]
+
+Lyft and Uber have long grappled with retaining and recruiting drivers, particularly as the two ride-hailing firms have driven prices lower to attract more riders. Many drivers have bemoaned the lack of benefits such as health-care coverage, contending they should be treated as employees, and point to expenses like auto insurance and gasoline as cutting into their earnings. Some say they feel powerless to combat sudden changes to fares or other fees the companies implement.
+
+And while safety is a motivation, the promise of autonomous vehicles is primarily about cost savings. Driverless cars could eliminate the need to pay humans at the wheel, which could enable the companies to lower fares further.
+
+It is no secret that a fleet of autonomous vehicles has the potential to be incredibly lucrative for ride-hailing companies like Lyft and Uber, obviating the need to pay drivers, read an analysis from EquityZen, an investment firm that has invested in Lyft.
+
+Some drivers are already envisioning a future where theyre not driving. I hope to be out of the game sooner or later  especially with the writing on the wall with autonomous cars coming, said Rebecca Stack, a driver-organizer with Gig Workers Rising, the group that protested Lyfts IPO outside a luxury San Francisco hotel this week. But in the meantime I still have rent to pay. I have mouths to feed. I have to support myself. I live in the most expensive city in the United States.
+SAN FRANCISCO  Millions of drivers are betting their livelihoods on Uber and Lyft. On Friday, Wall Street bet billions of dollars that the companies wont need those drivers.
+
+Lyft and Uber, which helped pioneer the gig economy with its armies of drivers, lose massive amounts of money to pay drivers for each ride. The firms could slash their costs of each ride by as much as three-quarters by replacing human drivers with autonomous vehicles, according to the companies, turning ride-hailing into a profitable enterprise.
+
+But widespread deployment of the technology is a decade away at best, experts say. That raises the question of whether Uber and Lyft can survive the years it will take to get there on their current business model. Lyft said it lost $911 million last year alone.
+
+Lyft is the first of the two to sell stock to ordinary investors: it began trading on U.S. markets Friday morning, soaring as much as 20 percent in early trading before settling for an increase of 9 percent. Uber is expected to go public later this year.
+
+Uber and Lyft are the latest Silicon Valley companies to sell a suspended belief vision of the future: The technology that could make them juggernauts doesnt exist yet.
+
+Lyft said in a mandatory IPO filing that it wants to begin providing self-driving ride-hail trips on the app within five years. It wants a network of autonomous vehicles providing a majority of its trips within a decade. Five years after that, Lyft expects it will have purpose-built driverless vehicles on the road, not just zipping around town but also taking passengers on long-haul journeys.
+
+We have set ambitious goals for Lyft to broadly deploy autonomous vehicle technology, the company said.
+
+A similar sentiment pervades Lyfts chief rival, Uber, whose founder and former chief executive, Travis Kalanick, said in 2016 that self-driving technology was basically existential for the company.
+
+For the moment, both companies are heavily dependent on thousands of drivers whose wages make up a significant chunk of their losses. Uber and Lyft lose money on each ride they facilitate. Lyft will be under shareholder pressure to trim its losses, given that public funders are unlikely to give the company the same financial runway its early adopters provided. Its listing raised $2 billion and valued the company at $24 billion.
+
+[Uber and Lyft slashed wages. Now California drivers are protesting their IPOs.]
+
+Some people characterize the driver business model as being nothing more than venture capitalists subsidizing peoples taxi rides around the world, said Jason Schloetzer, a professor at Georgetowns McDonough School of Business who specializes in artificial intelligence use cases. And that kind of business model can only survive so long.
+
+Drivers represent more than cost concerns for Uber and Lyft. As driver demonstrations in California illustrated this week, they are fighting back against the dwindling cut of the fare they get  as little as 60 cents a mile in Southern California, only two cents more than the IRS reimbursement rate. And court rulings or legislation could force the companies to consider drivers as employees rather than contractors, driving up their costs by requiring them to offer benefits.
+
+Lyft and Uber together will be able to pull this off for several quarters but they are going to have to show profitability and theyre not close," said University of Maryland strategy and entrepreneurship professor Brent Goldfarb, co-author of Bubbles and Crashes: The Boom and Bust of Technological innovation.
+
+Stacy Brown-Philpot, the chief executive of TaskRabbit, another gig economy start-up, framed the IPOs as an opportunity.
+
+Its going to invite an expectation of transparency and an expectation of scrutiny, which I actually think will be helpful and healthy in shaping how these companies will grow into the future, she said at a technology forum hosted by The Washington Post in San Francisco this week. I hope what then happens is that transparency allows for us to see: Heres what it takes to really build a sustainable business and also help people afford an income, a meaningful income. 
+
+Uber and Lyft declined to comment.
+
+A few tech companies have famously sailed to enormous wealth on the promise of paradigm-changing technology paying off after many years. Amazon two decades ago was a nascent online bookseller that had yet to realize its vision of becoming a cloud-computing juggernaut that powers the Internets one-stop retail shop, ascending to become one of the worlds most valuable public companies. The value of Google, once thought of as an Internet search company, is in fact in its artificial intelligence.
+
+But many more have stumbled. In Silicon Valley, the earliest adopters of technology -- the ones that intrigue investors -- are not always ones that survive. Early makers of wearables, including Fitbit and Jawbone, have been eclipsed by others including Apple and Xiaomi. WebVan, once the Internets largest and best-funded grocery service, went bankrupt in 2001, but online grocery shopping eventually took off. Apple and Google developed their successful iPhone and Android smartphones on the heels of Palm and Blackberry devices had long before cornered the market on digital assistants.
+
+Lyft has created a narrative of an imagined future, said Goldfarb. The vision is of a fleet of cars that drive themselves for less than what theyre currently paying the drivers. Thats what has to happen.
+
+Uber, Lyft, Waymo, Ford, General Motors and a host of other companies are pouring billions of dollars into developing driverless cars, and some companies, including Lyft, have rolled out pilot programs and driverless partnerships in places such as Silicon Valley, Phoenix, Las Vegas and Pittsburgh. But there have been setbacks, including the fatal pedestrian crash involving a self-driving Uber in Arizona, which halted the companys driverless testing for nine months.
+
+[Lyft prices IPO at $72 a share, valuing company at $24B]
+
+Schloetzer, the Georgetown professor, sees a dichotomy between Lyfts current and envisioned realities. One is expected to prop up the other, even though the models can eventually exist in unison. He says there will certainly be places, perhaps circuitous suburban neighborhoods, where self-driving routes arent yet mapped, and humans need to take over. In city downtowns and more traveled routes, however, self-driving is more likely to arrive sooner. Meanwhile, Uber and Lyft users are living in an investor-fueled limbo, he said.
+
+Drivers fear they are already feeling the crunch of a company under pressure to prove its capability to investors.
+
+Theres always been an inherent tension between drivers and ride-hail companies, said Harry Campbell, a driver who also operates the Rideshare Guy blog, which tracks the industry. The companies have the ability to implement changes without any feedback from drivers, which has led to driver protests such as the recent ones in Los Angeles over a sudden change to fares.
+
+He said for many drivers it has grown more difficult to earn consistent wages as more riders and drivers flood the system. Thats why Lyft and Uber have spent billions on incentive programs to keep drivers on the road, such as cash bonuses for completing a certain number of rides per week or month. But investors tolerance for the outlays will be tested if Lyft continues to burn through cash as it has leading into its IPO. Its losses last year erased nearly half of its sales, even as those doubled to $2.2 billion. Lyft cautioned in its public filings that it may never achieve profitability.
+
+[Lyft Confirms What We Know and What We Dont]
+
+Lyft and Uber have long grappled with retaining and recruiting drivers, particularly as the two ride-hailing firms have driven prices lower to attract more riders. Many drivers have bemoaned the lack of benefits such as health-care coverage, contending they should be treated as employees, and point to expenses like auto insurance and gasoline as cutting into their earnings. Some say they feel powerless to combat sudden changes to fares or other fees the companies implement.
+
+And while safety is a motivation, the promise of autonomous vehicles is primarily about cost savings. Driverless cars could eliminate the need to pay humans at the wheel, which could enable the companies to lower fares further.
+
+It is no secret that a fleet of autonomous vehicles has the potential to be incredibly lucrative for ride-hailing companies like Lyft and Uber, obviating the need to pay drivers, read an analysis from EquityZen, an investment firm that has invested in Lyft.
+
+Some drivers are already envisioning a future where theyre not driving. I hope to be out of the game sooner or later  especially with the writing on the wall with autonomous cars coming, said Rebecca Stack, a driver-organizer with Gig Workers Rising, the group that protested Lyfts IPO outside a luxury San Francisco hotel this week. But in the meantime I still have rent to pay. I have mouths to feed. I have to support myself. I live in the most expensive city in the United States.
+
+
