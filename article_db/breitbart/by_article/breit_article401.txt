@@ -1,0 +1,25 @@
+https://breitbart.com/news/black-box-data-show-faulty-sensor-caused-ethiopia-plane-crash/
+Black box data show faulty sensor caused Ethiopia plane crash
+March 30 (UPI) — Black box data suggest a faulty sensor on a Boeing 737 Max 8 activated an automated system to cause the plane to nose-dive and crash in Ethiopia, killing all on board 20 days ago.
+
+Data from the angle-of-attack sensor incorrectly activated the automated system that pushed the plane into an irreversible nose-dive on March 10, The New York Times reported, citing unnamed individuals briefed on the contents of the plane’s black box. The crash killed all 157 people aboard, including eight Americans. The Federal Aviation Administration ordered the grounding of all Boeing 737 Max 8 and Max 9 aircraft a few days later.
+
+Black box recorder data indicated that the new automated anti-stall system on the Boeing 737 Max jet caused the nose-dive, people briefed on the probe told Bloomberg. One of two sensors near the plane’s nose would have had to malfunction or be damaged for this to occur.
+
+The sensor’s role in engaging the automated system raised concern about whether it relied too much on a single device instead of using multiple data points to guide the plane’s trajectory.
+
+The crash near Addis Ababa was the second crash involving the Boeing model in less than six months and bore similarities to another crash of the same model in October in Indonesia that killed 189 people.
+
+In that crash, Indonesian Lion Air pilots weren’t able to shut off the anti-stall system, called the Maneuvering Characteristics Augmentation System, as the jet crashed into the Java Sea.
+
+After the Indonesia crash, airline officials said they alerted pilots of the potential of the augmentation system to push down the plane’s nose during a malfunction and highlighted a procedure to disable it by hitting switches in the cockpit if it occurred.
+
+The reason the angle-of-attack sensor malfunctioned in the Ethiopia flight is not yet clear, people briefed on the probe said.
+
+In the Lion Air crash, the sensor failed on an earlier flight and wasn’t repaired, initial findings show.
+
+Garima Sethi, the wife of the Lion Air flight pilot, pushed for months for Boeing to ground the 737 Max 8, and believe the Ethiopia crash.
+
+“We tried to do our part, but nobody heard us,” Sethi said.
+
+

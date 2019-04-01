@@ -1,0 +1,25 @@
+https://www.breitbart.com/tech/2019/03/29/techcrunch-alex-jones-case-demonstrates-facebooks-moderation-problems/
+TechCrunch: Alex Jones Case Demonstrates Facebook’s Moderation Problems
+In a recent article, TechCrunch reports that Facebook’s removal of Infowars host Alex Jones from its platform underscores the many issues the company has with content moderation.
+
+In a recent article titled “Facebook’s handling of Alex Jones is a microcosm of its content policy problem,” TechCrunch reports that the removal of Infowars host Alex Jones from the Facebook platform is an example of the many issues that the site has with content moderation. Jones’ high profile persona meant that Facebook executives themselves had to get involved in the decision-making process.
+
+TechCrunch writes:
+
+To make that determination, 20 Facebook and Instagram executives hashed it out over the Jones post, which depicted a mural known as “False Profits” by the artist Mear One. Facebook began debating the post after it was flagged by Business Insider for kicking up anti semitic comments on Wednesday. The company removed 23 of 500 comments on the post that it interpreted to be in clear violation of Facebook policy. Later in the conversation, some of the UK-based Instagram and Facebook executives on the email provided more context for their US-based peers. Last year, a controversy over the same painting erupted when British politician Jeremy Corbyn argued in support of the mural’s creator after the art was removed from a wall in East London due what many believed to be antisemitic overtones. Because of that, the image and its context are likely better known in the UK, a fact that came up in Facebook’s discussion over how to handle the Jones post.
+
+TechCrunch notes that the same image that had Jones removed from Facebook is still present across many of its platforms, posted by the artist behind the image. this demonstrates the company’s inconsistency in moderation:
+
+Ultimately, after some back and forth, the post was removed. According to the emails, Alex Jones’ Instagram account “does not currently violate [the rules]” as “an IG account has to have at least 30% of content violating at any given time as per our regular guidelines.” That fact might prove puzzling once you know that Alex Jones got his main account booted off Facebook itself in 2018 — and the company did another sweep for Jones-linked pages last month. Whether you agree with Facebook’s content moderation decisions or not, it’s impossible to argue that they are consistently enforced. In the latest example, the company argued over a single depiction of a controversial image even as the same image is literally for sale by the artist elsewhere on both on Instagram and Facebook. (As any Facebook reporter can attest, these inconsistencies will probably be resolved shortly after this story goes live.)
+
+TechCrunch notes that although Facebook appears to be trying to improve its content moderation, the sites inconsistent enforcement has led to further issues for the firm:
+
+It’s clear that even as Facebook attempts to make strides, its approach to content moderation remains reactive, haphazard and probably too deeply preoccupied with public perception. Some cases of controversial content are escalated all the way to the top while others languish, undetected. Where the line is drawn isn’t particularly clear. And even when high profile violations are determined, it’s not apparent that those case studies meaningfully trickle down clarify smaller, everyday decisions by content moderators on Facebook’s lower rungs.
+
+As always, the squeaky wheel gets the grease — but two billion users and reactive rather than proactive policy enforcement means that there’s an endless sea of ungreased wheels drifting around. This problem isn’t unique to Facebook, but given its scope, it does make the biggest case study in what can go wrong when a platform scales wildly with little regard for the consequences.
+
+A Facebook spokesperson commented on the issue stating: “We want people to be able to express themselves freely on our platforms, but we also want to make sure that hate speech comes down. That is why we have public rules about what is and isn’t allowed on Facebook and Instagram. As this exchange shows, deciding what content stays up and who can use our platforms is one of the hardest decisions we have to make as a company and it’s sensible that we take the time to get it right.”
+
+Read the full article by TechCrunch here.
+
+
