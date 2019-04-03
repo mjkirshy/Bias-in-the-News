@@ -1,4 +1,4 @@
-import newspaper, os, sys, io
+import newspaper, os, io
 from newspaper import Article
 ## to f: article text  ##  news_pool, 
 ## to g: article url (article.url), date, article text (article.text), article title (article.title)
