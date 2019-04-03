@@ -1,0 +1,23 @@
+https://breitbart.com/tech/2019/03/26/mastercard-shares-details-of-digital-identity-system/
+Mastercard Shares Details of ‘Digital Identity’ System
+Details have been revealed about Mastercard’s controversial “digital identity” system, which will “bind” your identity to a smartphone or other device, and which has been compared to China’s social credit system and the bleak futurism of Netflix series Black Mirror.
+
+In December, Mastercard announced the system, posting on Twitter, “Voting, driving, applying for a job, renting a home, getting married and boarding a plane: what do these all have in common? You need to prove your identity. In partnership with @Microsoft, we are working to create universally-recognized digital identity.”
+
+And now more details about the digital identity system have been released.
+
+Mastercard’s president of cyber and intelligence solutions, Ajay Bhalla, explained, “It’s a consumer-centric model for digital identity that gives consumers control… It will securely bind a person’s identity to their smartphone or any other device, and the idea is that this will unlock new and enhanced experiences for people as they interact with businesses and service providers.”
+
+According to Wired, “Institutions that offer the ID and those that use it to verify transactions (like say, car rental companies or governments) would pay Mastercard to manage and oversee this verification network.”
+
+“For example, the universal ID could allow someone to prove that they are old enough to buy alcohol under a given country’s laws without having to share their specific age. Or they could prove that they have a valid passport that meets set requirements without a hotel needing to know and store their passport number,” Wired reported. “These types of controls could significantly cut down on the troves of personal information hackers can grab in data breaches, and could even help cut down on shady data brokering among corporate third parties.”
+
+However, the idea has become controversial, with some warning that the system would create “invasive surveillance apparatuses,” and others claiming it feels too similar to China’s social credit system.
+
+Some even compared the system to George Orwell’s dystopian novel Nineteen-Eighty-Four, and the dark science-fiction television show Black Mirror.
+
+“Sounds good in practice, but as we’re fans of Black Mirror here, our imaginations immediately jump to the dark side of tech, whereby Microsoft and MasterCard become a superpower by controlling people’s access to online things by the simple virtue of holding their identity in a vice-like digital grip,” wrote Roland Moore-Colyer for the Inquirer in December. “Now that might seem like an extreme and fanciful case of tech dystopia, and of course, it is. But there’s arguably a risk that if a database of secured identities gets compromised, suddenly people could find themselves without a digital identity and thereby locked out of their favourite online services or getting defrauded by cyber crooks.”
+
+Last year, Mastercard reportedly forced funding platform Patreon to ban conservative author Robert Spencer from its platform, while in the same year, it was revealed that Mastercard and Google were working together to track users’ retail purchases.
+
+
