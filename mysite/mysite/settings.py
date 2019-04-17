@@ -25,7 +25,7 @@ SECRET_KEY = 'o0d8lu=nza3r4ebvp4)g6lo67z9@77h20r!+st51l%4mfm=b9y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cse442.azurewebsites.net']
+ALLOWED_HOSTS = ['cse442.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
@@ -76,13 +76,21 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'OPTIONS': {
-            'connect_timeout': 5, ## added to help prevent another database is locked error 
-        }
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fakenews_db',
+        'USER': 'ryan_fn',
+        'PASSWORD': '123',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation
