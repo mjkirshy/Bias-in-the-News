@@ -1,9 +1,10 @@
-# -*- coding: utf-8 -*-
-import sumy, re
+import sumy, re, nltk
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize, PunktSentenceTokenizer
 #
 # take a list of paragraphs
 # summarize each one
@@ -12,14 +13,14 @@ from sumy.summarizers.lsa import LsaSummarizer
 # return the top K based on similary scoring
 # send those summarized paragraphs to a query function 
 #
-
+# test_encoded = "Senator Bernie Sanders stepped to the lectern on Wednesday, red-faced and rumpled as ever, with a placard screaming \xef\xbf\xbdMedicare for All,\xef\xbf\xbd and likened his quest for a government-run universal health plan to earlier movements for women\xef\xbf\xbds rights, civil rights, workers\xef\xbf\xbd rights and gay rights."
 test_para = ['Medicare for All is not passing this Congress. Its cost is still unknown, the mechanisms to pay for it still the subject of debate. But behind Mr. Sanders�s choreographed theatrics were the unmistakable politics of 2020 and his campaign for president, a campaign that never really ended with the election of Donald J. Trump.']
 test_list = [
     'Senator Bernie Sanders stepped to the lectern on Wednesday, red-faced and rumpled as ever, with a placard screaming �Medicare for All,� and likened his quest for a government-run universal health plan to earlier movements for women�s rights, civil rights, workers� rights and gay rights.',
     'What we are involved in is not just health care legislation,� he declared, flanked by admiring doctors in lab coats, Democratic senators and one of his rivals for the Democratic presidential nomination, Senator Kirsten Gillibrand of New York. �We are involved in a great struggle',
     'Medicare for All is not passing this Congress. Its cost is still unknown, the mechanisms to pay for it still the subject of debate. But behind Mr. Sanders�s choreographed theatrics were the unmistakable politics of 2020 and his campaign for president, a campaign that never really ended with the election of Donald J. Trump.',
     'After the 2016 election, Democrats made efforts to pull Mr. Sanders, a political independent from Vermont, into the fold with a newly minted leadership post. But that has only bolstered his platform to seek the presidency � and gave him more power to disrupt the party�s status quo.',
-    '�I ran for president; I got 13 million votes, going over 1,700 delegates to the Democratic convention, and got more young people�s votes than Clinton and Trump combined,� Mr. Sanders boasted in an interview in his Washington office. �And I thought that those 13 million people deserved a voice in Democratic leadership.�',
+    'I ran for president; I got 13 million votes, going over 1,700 delegates to the Democratic convention, and got more young people�s votes than Clinton and Trump combined,� Mr. Sanders boasted in an interview in his Washington office. �And I thought that those 13 million people deserved a voice in Democratic leadership.�',
     'The Medicare for All Act unveiling � its fifth iteration � comes as Mr. Sanders�s $18 million fund-raising haul has made him an instant front-runner in a very crowded field. But in many ways he is still the �same old Bernie,� as many of his colleagues like to say � a gruff and sometimes grating presence in a chamber that prides itself on civility. He still knows how to rankle.',
     'He ran as a Democrat for president in 2016, then shunned the entreaties of Democratic leaders and sought re-election last year as an independent. His push for Medicare for All runs counter to the wishes of top Democrats like Senator Chuck Schumer, the minority leader, and Speaker Nancy Pelosi, who are trying to de-emphasize it.',
     'At the same time, Mr. Sanders � who has long cast himself as an outsider � has joined party leadership, which gives him a voice in plotting strategy. His post as �chair of outreach� � a job that did not exist until he and Mr. Schumer created it after the 2016 presidential election � has also given him license and a small budget to travel the country doing what he likes best: rallying the progressive left to resist President Trump.',
@@ -49,11 +50,65 @@ test_list = [
 ]
 #
 def write_para(paragraph):
-    with open('temp_para.txt','w') as out_file:
+    with open('tp.txt','a') as out_file: # append for the whole paragraph, clear after done with summary
         out_file.write(paragraph)
 #
+def clear_file():
+    open("tp.txt",'w').close()
+#
+def remove_stopwords(sentence):
+    stop_words = set(stopwords.words('english'))
+    word_tokens = word_tokenize(sentence)
+    filtered_sentence = [w for w in word_tokens if not w in stop_words]
+    sentence = ""
+    for word in filtered_sentence:
+        sentence+=word+" "
+    return sentence
+#
 def filter_sentence(sentence):
-    a=5
+    filtered_sentence = ""
+    splitted = sentence.split()
+    for word in splitted: # all words in the sentence
+        if word.find("b'") != -1 and word.find("\\x") != -1:
+            pos_b = word.find("b'")
+            temp = word[0:pos_b] # whole string before b'
+            temp+=word[pos_b+2:len(word)] # string after b'
+            # total = temp.count("\\x") # gets number of \x in string
+            length  = 4 # \x123 is example escape sequence
+            t = ""
+            start_pos = 0
+            pos_inc = temp.find("\\x")
+            while start_pos != -1:
+                t += temp[start_pos:pos_inc] # everything before tag
+                start_pos = pos_inc+length
+                temp.find("\\x",start_pos)
+            filtered_sentence = t # should be trimmed string
+        elif word.find("b'") != -1:
+            temp = ""
+            start_pos = 0
+            inc_pos = word.find("b'")
+            while inc_pos != -1:
+                temp += word[start_pos:inc_pos] # substring from start to before b'
+                start_pos = inc_pos+2 # length of 'b
+                inc_pos  = word.find("b'", start_pos) # finds next one
+                if inc_pos == -1:
+                    temp += word[start_pos:len(word)]
+            filtered_sentence+=temp+" "
+        elif word.find("\\x") != -1:
+            temp = ""
+            start_pos = 0
+            inc_pos = word.find("\\x")
+            while inc_pos != -1:
+                temp +=word[start_pos:inc_pos]
+                start_pos=(inc_pos+4)
+                inc_pos = word.find("\\x",start_pos)
+                if inc_pos == -1:
+                    temp += word[start_pos:len(word)]
+            filtered_sentence+=temp+" "
+        else: # no bad characters
+            filtered_sentence+=word+" "
+    # print("filtered: " + filtered_sentence)            
+    return filtered_sentence
 #
 def gen_summary():
     filename = "temp_para.txt"
@@ -65,20 +120,18 @@ def gen_summary():
         print(sentence)
 #
 def para_to_file(parag_list):
-    counter = 1
     # 3rd index has more than one period for testing
-    for p in test_list:
-        print(str(p.encode('utf8')))
-        sentences = p.split('.')
-        for sent in sentences:
-            print(str(sent.encode('utf8')))
-            print('~~~')
-        counter+=1
-        if counter == 3:
-            break
-    # input is a list of paragraphs #
-    # for paragraph in parag_list:
-        # write_para(paragraph) ## writes para_string to file
+    full_paragraph = ""
+    for p in parag_list:
+        # temp_sent = remove_stopwords(p)
+        # sentences_in_paragraph = temp_sent.split('.')
+        sentences_in_paragraph = p.split('.')
+        for word in sentences_in_paragraph:
+            temp = str(word.encode('utf-8'))
+            fn_temp = filter_sentence(temp)
+            full_paragraph+=fn_temp
+        write_para(full_paragraph)
+        full_paragraph=""
 
 if __name__ == "__main__":
     para_to_file(test_list)
