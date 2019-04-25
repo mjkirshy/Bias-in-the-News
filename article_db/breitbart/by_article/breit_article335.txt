@@ -1,0 +1,39 @@
+https://breitbart.com/national-security/2019/03/28/u-k-officials-identify-more-security-risks-in-huawei-electronics/
+U.K. Officials Identify More Security Risks in Huawei Electronics
+Security officials in the United Kingdom issued a report on Thursday identifying further security risks in equipment from Chinese telecom giant Huawei. The report noted Huawei has made no progress on addressing previously identified problems and said it would be “difficult” to manage the security risk from further Huawei purchases.
+
+The U.K. Huawei Cyber Security Evaluation Center (HCSEC), established by the company itself but overseen by British intelligence, issues a report on Huawei products every year. The new report arrives at a moment when the U.S. government is strongly encouraging allies to rethink purchases of Chinese electronics because they may include deliberate security vulnerabilities that could be exploited in the future by Chinese intelligence agencies.
+
+The U.S. has warned allies such as Germany and Israel that intelligence sharing could be curtailed in the future if they rely on products from companies like Huawei. The British government’s final decision on whether to use Huawei products in its 5G wireless network is expected soon.
+
+HCSEC’s 2019 report found “several hundred vulnerabilities and issues” with Huawei products, some of them unaddressed holdovers from the 2018 report. HCSEC noted that its evaluation team is “relatively small,” so the number of vulnerabilities they were able to discover with limited manpower is troubling.
+
+“If an attacker has knowledge of these vulnerabilities and sufficient access to exploit them, they may be able to affect the operation of the network, in some cases causing it to cease operating correctly,” the British watchdog agency warned, mirroring concerns expressed by U.S. intelligence officials.
+
+The warning was tempered by assurances that U.K. networks are configured in such a way that exploiting such vulnerabilities to attack secure government systems is difficult.
+
+The U.K. experts thought the vulnerabilities they discovered could be “exploited by a range of actors,” but they did not believe the defects were a “result of Chinese state interference.”
+
+HCSEC judged Huawei’s much-touted $2 billion plan to fix its security vulnerabilities over the next three to five years looks plausible on paper, but skeptically added that “similar strongly-worded commitments from Huawei in the past have not brought about any discernible improvements.” Some of those commitments date back to a cybersecurity white paper Huawei published in 2012.
+
+“Huawei’s development and support processes are not currently conducive to long-term
+
+security risk management and, at present, the Oversight Board has seen nothing to give confidence in Huawei’s capacity to fix this,” the report concluded.
+
+The Verge noted on Thursday that one of the U.K.’s four big mobile operators, EE, long ago ruled out using Huawei equipment for core network functions. One of the others has placed Huawei purchases on hold while security issues are evaluated, while the other two are currently evaluating Huawei products on their own.
+
+“We understand these concerns and take them very seriously,” a Huawei spokesperson said after the new HCSEC report was released.
+
+“To ensure the ongoing security of global telecom networks, the industry, regulators, and governments need to work together on higher common standards for cybersecurity,” the spokesperson said, portraying the $2 billion security improvement plan promised by the company since last year as merely the “initial budget” for enhancements it plans to make.
+
+TechCrunch described the new HCSEC report as a “withering assessment” and viewed it as a sign the U.K. might be considering a change in policy toward Huawei:
+
+Critics of Huawei can now point to impatience rising in the U.K., despite comments by the head of the NCSC, Ciaran Martin, last month — who said then that security agencies believe the risk of using Huawei kit can be managed, suggesting the government won’t push for an outright ban. The report does not literally overturn that view but it does blast out a very loud and alarming warning about the difficulty for UK operators to “appropriately” risk-manage what’s branded defective and vulnerable Huawei kit. Including flagging the risk of future products — which the board suggests will be increasingly complex to manage. All of which could well just push operators to seek alternatives.
+
+TechCruch observed that the U.K. government could simply order Huawei to address all of the major concerns spotlighted by the HCSEC, instead of accepting the company’s assurances that everything will be taken care of, but such a brute-force approach could compromise the performance and stability of the 5G network and make future upgrades difficult.
+
+Politico called the new report a “bombshell” and predicted it could have ripple effects in other European countries with Huawei security centers. The report could make U.K. wireless companies more nervous about using Huawei products even if the government decides not to ban or restrict them.
+
+“Several smaller countries have asked leading intelligence services like the U.K.’s for input. The European Commission earlier this week issued recommendations for EU countries to share their security assessments and come to a joint position on whether to allow Huawei into their networks,” Politico reported.
+
+
