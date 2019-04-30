@@ -27,7 +27,7 @@ def index(request):
    ## render function takes: request obj, dictionary for vars, and an optional third argument
 
 def forms_output(request):
-    last_submitted_article = Publisher.objects.order_by('-date_submitted') 
+    # last_submitted_article = Publisher.objects.order_by('-date_submitted') 
     articleText = None
     article_summary = None
     article_keywords = None

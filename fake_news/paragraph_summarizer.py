@@ -1,11 +1,4 @@
-import sumy, re, nltk
-#
-from sumy.parsers.plaintext import PlaintextParser
-from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lex_rank import LexRankSummarizer
-#
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, PunktSentenceTokenizer
+import re, nltk
 #
 # take a list of paragraphs
 # summarize each one
@@ -58,14 +51,14 @@ def write_para(paragraph):
 def clear_file():
     open("tp.txt",'w').close()
 #
-def remove_stopwords(sentence):
-    stop_words = set(stopwords.words('english'))
-    word_tokens = word_tokenize(sentence)
-    filtered_sentence = [w for w in word_tokens if not w in stop_words]
-    sentence = ""
-    for word in filtered_sentence:
-        sentence+=word+" "
-    return sentence
+# def remove_stopwords(sentence):
+#     stop_words = set(stopwords.words('english'))
+#     word_tokens = word_tokenize(sentence)
+#     filtered_sentence = [w for w in word_tokens if not w in stop_words]
+#     sentence = ""
+#     for word in filtered_sentence:
+#         sentence+=word+" "
+#     return sentence
 #
 def filter_sentence(sentence):
     filtered_sentence = ""
@@ -111,15 +104,6 @@ def filter_sentence(sentence):
     # print("filtered: " + filtered_sentence)            
     return filtered_sentence
 #
-def gen_summary(text):
-    parser = PlaintextParser.from_string(text,Tokenizer("english"))
-    lex_summarizer = LexRankSummarizer()
-    summary = lex_summarizer(parser.from_string,1)
-    summary_list = [str(sentence) for sentence in summary]
-    result = ' '.join(summary_list)
-    print(result)
-    print("~~" +'\n' + text)
-    #
 def para_to_file(parag_list):
     # 3rd index has more than one period for testing
     full_paragraph = ""
@@ -134,7 +118,6 @@ def para_to_file(parag_list):
             fn_temp = filter_sentence(temp)
             full_paragraph+=fn_temp
         # print(full_paragraph)
-        gen_summary(full_paragraph)
         write_para(full_paragraph)
         full_paragraph=""
         # clear_file()
