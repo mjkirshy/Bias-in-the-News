@@ -76,6 +76,33 @@ def build_similarity_matrix(sentences, stop_words):
             similarity_matrix[idx1][idx2] = sentence_similarity(sentences[idx1], sentences[idx2], stop_words)
     return similarity_matrix
 
+def generate_summary(file_text, top_n=5):
+    nltk.download("stopwords")
+    stop_words = stopwords.words('english')
+    summarize_text = []
+    sentences =  read_article(file_text) 
+    sentence_similarity_martix = build_similarity_matrix(sentences, stop_words) 
+    sentence_similarity_graph = nx.from_numpy_array(sentence_similarity_martix)
+    scores = nx.pagerank(sentence_similarity_graph)
+    ranked_sentence = sorted(((scores[i],s) for i,s in enumerate(sentences)), reverse=True)    
+    #print("Indexes of top ranked_sentence order are ", ranked_sentence)    
+    for i in range(top_n):
+        summarize_text.append(" ".join(ranked_sentence[i][1]))
+    return(gather_sources(summarize_text))
 
+def gather_sources(summarize_text):
+    res = service.cse().list(q = summarize_text[0], cx = '006228756898570140581:ng9oxqpjpii').execute()
+    links = []
+    lenn = len(res['items'])
+    if lenn > 3:
+        lenn = 3
+    for i in range(lenn):
+        links.append(res['items'][i]['link'])
+    for items in links:
+        print(items)
+    for items in summarize_text:
+        print("---- " + items + '\n')
+    print(summarize_text[0])
+    return [links, summarize_text]
 #####INSERT FILE PATH IN THE FUNCTION CALL BELOW!!!###########
 #generate_summary( "C:\\Users\\matthew.kirshy\\Desktop\\CSE-442-Fake-News-Web-Application\\article_db\\wapo\\by_article", 2)
