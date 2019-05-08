@@ -42,11 +42,8 @@ def paragraph_parse(test_url):
             if counter > 1:
                 article_by_paragraphs.append(paragraph.text)
             counter+=1
-        for p in article_by_paragraphs:
-            print(p)
-            print('\n')
-        # full_article = make_article(article_by_paragraphs) # concates the list into one string
-        # title = content_soup.find("title")  # save for equality/relevance comparisons later            
+        return article_by_paragraphs # list of paragraphs in the atrticle
+        # return full_article
 #
 def main():
     # force NYT only for accurate testing #

@@ -15,6 +15,7 @@ from nltk.tokenize import word_tokenize
 # and later use these sentences/paragraphs to query google / etc
 #
 # test_title = 'Medicare for All and Beyond, Sanders Uses the Senate as His Launching Pad'
+test = ''
 test_para = 'I ran for president; I got 13 million votes, going over 1,700 delegates to the Democratic convention, and got more young peoples votes than Clinton and Trump combined, Mr Sanders boasted in an interview in his Washington office. And I thought that those 13 million people deserved a voice in Democratic leadership. The Medicare for All Act unveiling  its fifth iteration  comes as Mr Sanderss $18 million fund-raising haul has made him an instant front-runner in a very crowded field.  But in many ways he is still the same old Bernie, as many of his colleagues like to say  a gruff and sometimes grating presence in a chamber that prides itself on civility.  He still knows how to rankle.  He ran as a Democrat for president in 2016, then shunned the entreaties of Democratic leaders and sought re-election last year as an independent.  His push for Medicare for All runs counter to the wishes of top Democrats like Senator Chuck Schumer, the minority leader, and Speaker Nancy Pelosi, who are trying to de-emphasize it. At the same time, Mr Sanders  who has long cast himself as an outsider  has joined party leadership, which gives him a voice in plotting strategy.  His post as chair of outreach  a job that did not exist until he and Mr Schumer created it after the 2016 presidential election  has also given him license and a small budget to travel the country doing what he likes best: rallying the progressive left to resist President Trump.'
 test_url = 'https://www.nytimes.com/2019/04/10/us/politics/bernie-sanders-medicare-for-all.html?action=click&module=Top%20Stories&pgtype=Homepage'
 #
@@ -29,23 +30,18 @@ def remove_stop_words(text):
     # temp = stem_text(altered_string)
     return altered_string
 #
-# def stem_text(tokenized_string):
-#     pstemmer = PorterStemmer()
-#     stemmed_string = []
-#     for word in tokenized_string:
-#         temp = pstemmer.stem(word)
-#         # stemmed_string.append(pstemmer.stem(word))
-#     return stemmed_string
-#
 def sentence_parse(paragraph):
     list_of_sentences = []
     pos_start = 0
     pos_period = paragraph.find('.')
-    while pos_period != -1:
-        temp = paragraph[pos_start:pos_period+1]
-        list_of_sentences.append(str(temp.strip()))
-        pos_start = pos_period+1
-        pos_period = paragraph.find('.',pos_start+1)
+    if pos_period == -1:
+        return paragraph.strip()
+    else:
+        while pos_period != -1:
+            temp = paragraph[pos_start:pos_period+1]
+            list_of_sentences.append(str(temp.strip()))
+            pos_start = pos_period+1
+            pos_period = paragraph.find('.',pos_start+1)
     # for s in list_of_sentences:
         # print(s)
     return list_of_sentences
@@ -61,11 +57,11 @@ def get_title(url):
 #
 def calc_jaro(title,sentence):
     value =  jellyfish.jaro_distance(title,sentence)
-    return (sentence, value)
+    return value
 #
 def calc_jaro_winkler(title,sentence):
     value = jellyfish.jaro_winkler(title,sentence)
-    return (sentence, value)
+    return value
 def calc_cosine(title, paragraph):
     # this function does not break it down by sentences as the results for entire paragraph are better/higher #
     # simple for loop and different input changes this no problem #
@@ -81,48 +77,56 @@ def calc_cosine(title, paragraph):
     return (paragraph,value)
 #
 def calc_fuzzy(title, sentence):
-    fuzz_ratio = fuzz.ratio(title.lower(),sentence.lower())
-    fuzz_partial_ratio = fuzz.partial_ratio(title.lower(),sentence.lower())
-    fuzz_token_sort_ratio = fuzz.token_sort_ratio(title,sentence)
-    fuzz_token_set_ratio = fuzz.partial_token_set_ratio(title,sentence)
+    fuzz_ratio = fuzz.ratio(title.lower(),sentence.lower()) / 100
+    fuzz_partial_ratio = fuzz.partial_ratio(title.lower(),sentence.lower()) / 100
+    fuzz_token_sort_ratio = fuzz.token_sort_ratio(title,sentence) / 100
+    fuzz_token_set_ratio = fuzz.partial_token_set_ratio(title,sentence) / 100
     # tuple_all = (sentence, fuzz_ratio,fuzz_partial_ratio,fuzz_token_sort_ratio,fuzz_token_set_ratio) # unsure if separate is better than averaged results
-    tuple_combined = sentence, ((fuzz_ratio+fuzz_partial_ratio+fuzz_token_sort_ratio+fuzz_token_set_ratio)/4) # averages the result from the four methods
+    tuple_combined = ((fuzz_ratio+fuzz_partial_ratio+fuzz_token_sort_ratio+fuzz_token_set_ratio)/4) # averages the result from the four methods
     return tuple_combined
 #
 def calc_lev(title, sentence):
     ratio = lev.ratio(title.lower(),sentence.lower())
-    temp_tuple = (sentence,ratio)
-    return temp_tuple
+    return ratio
 #
 def gather_results(title, paragraph):
-    # do cosine sim for each paragraph, update that
-    # add step to combine results and add to dictionary for return to front end
-    cosine_result_list = []
-    cosine_result_list.append(calc_cosine(title,paragraph))
-    sentence_list = sentence_parse(paragraph)
     #
     lev_result_list =[]
     fuzzy_result_list = []
     jaro_result_list = []
     jarowinkler_result_list = []
+    aggregate_list = []
     #
+    sentence_list = sentence_parse(paragraph)
     for sentence in sentence_list:
-        lev_result_list.append(calc_lev(title,sentence))
-        fuzzy_result_list.append(calc_fuzzy(title,sentence))
-        jaro_result_list.append(calc_jaro(title,sentence))
-        jarowinkler_result_list.append(calc_jaro_winkler(title,sentence))
-    #
-    lev_result_list.sort(key=itemgetter(1), reverse=True)
-    fuzzy_result_list.sort(key=itemgetter(1),reverse=True) # only one that is value between 0 and 100
-    jaro_result_list.sort(key=itemgetter(1),reverse=True)
-    jarowinkler_result_list.sort(key=itemgetter(1),reverse=True)
-    string = "check here for debugging purposes"
+        lev,fuzzy,jaro,winkler = calc_lev(title,sentence),calc_fuzzy(title,sentence),calc_jaro(title,sentence),calc_jaro_winkler(title,sentence)
+        average_results = (lev+fuzzy+jaro+winkler) / 4
+        temp_tuple = (sentence,average_results)
+        aggregate_list.append(temp_tuple)
+    aggregate_list.sort(key=itemgetter(1),reverse=True)
+    return aggregate_list
 #
-def main():
+def main(url,para_list):
+    all_sentences = []
+    all_paragraphs = []
+    title = get_title(url)
+    for p in para_list:
+        results_by_sentences = gather_results(title,p) # returns a list of all sentences in the paragraph, sorted by their weight
+        for sentence in results_by_sentences:
+            print(sentence)
+            all_sentences.append(sentence)
+        cosine_p = calc_cosine(title,p)
+        all_paragraphs.append(cosine_p)
+        # next iteration
+    # done with loop here
+    all_sentences.sort(key=itemgetter(1),reverse=True) # sentences are now sorted by value
+    all_paragraphs.sort(key=itemgetter(1),reverse=True) # paragraphs are now sorted by value
+    return all_sentences,all_paragraphs
+
+
+    # old functionality # 
     # sentence_parse(test_para)
-    title = get_title(test_url)
-    gather_results(title,test_para)
+    # title = get_title(test_url)
+    # gather_results(title,test_para)
     # gather_results(get_title(test_url),test_para)
 #
-if __name__ == "__main__":
-    main()

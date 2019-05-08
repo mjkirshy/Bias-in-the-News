@@ -106,23 +106,18 @@ def filter_sentence(sentence):
 #
 def para_to_file(parag_list):
     # 3rd index has more than one period for testing
+    cleansed_article = []
     full_paragraph = ""
     counter = len(parag_list)
     for p in parag_list:
         print("Paragraphs remaning: "+str(counter))
-        # temp_sent = remove_stopwords(p)
-        # sentences_in_paragraph = temp_sent.split('.')
         sentences_in_paragraph = p.split('.')
         for word in sentences_in_paragraph:
             temp = str(word.encode('utf-8'))
             fn_temp = filter_sentence(temp)
-            full_paragraph+=fn_temp
-        # print(full_paragraph)
-        write_para(full_paragraph)
+            full_paragraph+=fn_temp+'. '
+        cleansed_article.append(full_paragraph)
         full_paragraph=""
-        # clear_file()
         counter-=1
     print('Complete.')
-
-if __name__ == "__main__":
-    para_to_file(test_para)
+    return cleansed_article
