@@ -24,14 +24,16 @@
                         {% endif %}
                     </div>
                     <div class="container">
-                        <h3>Top 5 Keywords:</h3>
-                            {% for word in article_keywords %}
-                                <li>{{ word }}</li>
+                        <h3>Links:</h3>
+                            {% for linkx in links %}
+                                <li>{{ linkx }}</li>
                             {% endfor %}
                     </div><br>
                     <div class="container">
                         <h3>Summary:</h3>
-                        <p>{{article_summary}}</p>
+                        {% for thing in summ %}
+                            <p>{{ thing }}</p>
+                        {% endfor %}
                     </div>
                 </div> 
                 <div class="col-md-6">

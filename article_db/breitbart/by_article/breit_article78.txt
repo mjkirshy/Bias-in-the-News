@@ -1,0 +1,17 @@
+https://breitbart.com/national-security/2019/03/29/former-nsa-contractor-pleads-guilty-after-stealing-300-times-much-data-snowden/
+Former NSA Contractor Pleads Guilty, Stole More than Snowden
+Harold Thomas Martin III entered a guilty plea at U.S. District Court in Baltimore on Thursday, admitting his role in what could be the worst breach of classified data in U.S. history.
+
+The severity of the breach is measured in terms of how much information Martin looted from the systems he had access to. Fortunately, he does not appear to have done anything with the data he took. His defense lawyers characterized him as a data hoarder, a victim of compulsive mental illness who piled up classified files and sensitive documents the way other hoarders accumulate newspapers or clothes.
+
+After Martin was arrested in 2016, there was speculation he might have been a “whistleblower” in the Edward Snowden mode who lost his nerve, or he suffered from post-traumatic stress disorder after his deployment in Operation Desert Storm. Suspicions have been raised that he worked with or inspired the “Shadow Brokers,” an infamous hacker group that exposed some of the powerful software tools the National Security Agency (NSA) used for penetrating foreign computer systems.
+
+As is perhaps inevitable with any case touching upon the shadowy world of cyber espionage, there are many theories about his alarming behavior and the curiously low-key processing of his case – which began with a huge FBI raid compared by eyewitnesses to a military invasion but has received little media attention since.
+
+Martin wound up sitting on about 50 terabytes of data that never should have left the offices he took it from, a hoard prosecutors described as “breathtaking” in scope but rather sloppy in execution, as some of the pilfered material was reportedly stuffed into his car and an unlocked shed in his backyard. The NSA document he pled guilty to stealing is evidently one of the items he left in his car.
+
+Martin stole about 300 times as much information as Snowden, including top-shelf secret spy software and information that could have compromised American agents on dangerous assignments. His data-hoarding career spanned two decades of work for government contractors, including the same one that employed Snowden, Booz Allen Hamilton.
+
+Martin was originally charged with 20 counts of espionage but admitted to one count of “willful retention of national defense information,” for which the 54-year-old could serve up to nine years in prison. The two and a half years he has already been in custody will reportedly be credited against his sentence.
+
+
