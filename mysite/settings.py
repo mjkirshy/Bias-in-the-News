@@ -22,7 +22,7 @@ SECRET_KEY = 'o0d8lu=nza3r4ebvp4)g6lo67z9@77h20r!+st51l%4mfm=b9y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [cse442-fake-news.herokuapp.com]
 
 
 # Application definition
