@@ -12,6 +12,7 @@ lxml==4.3.3
 gunicorn
 newspaper3k==0.2.8
 nltk==3.4
+django-heroku
 numpy==1.16.3
 networkx==2.3
 Pillow==6.0.0
